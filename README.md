@@ -1,18 +1,13 @@
 # sql
 
 Project Title
-Employee Engagement Survey 2023
+Easy Analytics Corporation - Employee Engagement Survey 2023
 
-Project Description
-This project analyzes employee engagement survey 2023 results - a single-year analysis that focus on detailed insights, patterns & key drivers
+Project Overview
+This project analyzes employee engagement survey data using SQL. The analysis focuses on division-department engagement, key performance themes, gender-based insights and benchmarking against market data
+
+Purpose
+SQL is essential for real-world data analytics. This project shows how to extract, transform and analyze business survey data using SQL scripts, answering key questions relevant to HR and leadership
 
 Tools used
 SQL (SQL Server in SSMS)
-
-Dataset
-1.	EmployeeData_2023 (DataYear, EmployeeID, DivisionName, DepartmentName, Gender, Year, Month)
-2.	SurveyResponse_2023 (DataYear, EmployeeID, QuestionID, LikertScore, AverageScore)
-3.	SurveyQuestion_MarketScore_2023 (DataYear, QuestionID, Metric, Category, QuestionText, Theme, MarketScore)
-4.	MetricMapping (Metric, MetricOrder)
-5.	CategoryMapping (Metric, Category, CategoryOrder)
-6.	QuestionMapping (QuestionID, QuestionText, QuestionOrder)
